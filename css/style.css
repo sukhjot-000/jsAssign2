@@ -1,0 +1,91 @@
+/* Global styles */
+*{
+    padding: 5px;
+}
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+/* Container styles */
+.container {
+    max-width: 600px; /* Set maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding */
+    background-color: #fff; /* Set background color */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input and select styles */
+input[type="number"],
+select {
+    margin-bottom: 10px; /* Add bottom margin */
+    padding: 10px; /* Add padding */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+}
+/* Button styles */
+button {
+    padding: 10px 20px; /* Add padding */
+    margin-right: 10px; /* Add right margin */
+    cursor: pointer; /* Change cursor to pointer */
+    background-color: #4CAF50; /* Set background color */
+    color: white; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    transition: background-color 0.3s; /* Add transition effect */
+}
+button:hover {
+    background-color: #3f9443;
+}
+/* Image styles */
+#images {
+    max-width: 100%; /* Set maximum width */
+    height: auto; /* Set height to auto */
+    margin-top: 20px; /* Add top margin */
+    border-radius: 5px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"],
+select {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#images {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
